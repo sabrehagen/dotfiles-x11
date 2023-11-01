@@ -8,7 +8,7 @@ numlockx on
 xset r rate 155 80
 
 # Map key modifiers
-xmodmap $HOME/.Xmodmap
+setxkbmap -option caps:swapescape
 
 # Set resolution
 xrandr --size 1920x1080
