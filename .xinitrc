@@ -17,4 +17,4 @@ xrandr --size 1920x1080
 sudo service ssh start
 
 # Start i3
-exec /usr/bin/i3
+exec /usr/local/bin/i3
