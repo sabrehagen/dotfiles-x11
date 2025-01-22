@@ -10,6 +10,9 @@ xset r rate 155 80
 # Map key modifiers
 setxkbmap -option caps:swapescape
 
+# Map touchpad middle click to left click
+xinput set-button-map $(xinput list --name-only | grep -i synaptics | xargs -I@ xinput list --id-only "@") 1 1 3 4 5 6 7
+
 # Set resolution
 xrandr --size 1920x1080
 
