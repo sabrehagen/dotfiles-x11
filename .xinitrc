@@ -1,3 +1,6 @@
+# Set session environment variables
+export XDG_SESSION_TYPE=x11
+
 # Apply x server config
 xrdb -merge $HOME/.Xresources
 
