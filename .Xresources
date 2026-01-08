@@ -2,7 +2,6 @@ Xft.dpi: 96
 Xft.antialias: true
 Xft.hintstyle: hintslight
 
-xterm*faceName: Monospace
-xterm*faceSize: 10
-
+XTerm*faceName: xft:Monospace
+XTerm*faceSize: 10
 XTerm*VT100*allowFontOps: true
