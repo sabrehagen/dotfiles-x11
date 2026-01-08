@@ -4,3 +4,5 @@ Xft.hintstyle: hintslight
 
 xterm*faceName: Monospace
 xterm*faceSize: 10
+
+XTerm*VT100*allowFontOps: true
