@@ -3,7 +3,7 @@ Xft.antialias: true
 Xft.hintstyle: hintslight
 
 XTerm*faceName: xft:Monospace
-XTerm*faceSize: 10
+XTerm*faceSize: 8
 
 XTerm*VT100.Translations: #override \
   Ctrl<Key>equal: larger-vt-font() \n\
