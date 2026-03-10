@@ -19,8 +19,8 @@ xinput set-button-map $(xinput list --name-only | grep -i synaptics | xargs -I@ 
 # Set touchpad direction
 xinput set-prop "$(xinput list --name-only | grep -i synaptics)" "libinput Natural Scrolling Enabled" 0
 
-# Set resolution
-xrandr --size 3840x2160 || xrandr --size 1920x1080
+# Set dpi and resolution
+$HOME/.config/scripts/dpi-set.sh 144 || $HOME/.config/scripts/dpi-set.sh 96
 
 # Start ssh server
 sudo service ssh start
