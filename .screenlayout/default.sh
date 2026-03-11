@@ -1,1 +1,0 @@
-/home/jackson/.screenlayout/laptop.sh
