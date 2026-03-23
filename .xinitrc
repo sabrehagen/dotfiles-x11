@@ -22,9 +22,6 @@ xinput set-prop "$(xinput list --name-only | grep -i synaptics)" "libinput Natur
 # Set dpi and resolution
 $HOME/.config/scripts/dpi-set.sh 144 || $HOME/.config/scripts/dpi-set.sh 96
 
-# Start ssh server
-sudo service ssh start
-
 # Allow local user to connect to x server without auth cookie
 xhost +si:localuser:$USER
 
