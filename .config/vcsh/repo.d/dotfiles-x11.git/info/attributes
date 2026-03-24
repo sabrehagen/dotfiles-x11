@@ -1,0 +1,2 @@
+**/.xsettingsd diff=vcsh-exclude-xsettingsd
+**/.xsettingsd filter=vcsh-exclude-xsettingsd
