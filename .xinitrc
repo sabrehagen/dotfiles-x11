@@ -22,8 +22,5 @@ xinput set-prop "$(xinput list --name-only | grep -i synaptics)" "libinput Natur
 # Set dpi and resolution
 $HOME/.config/scripts/dpi-set.sh 144 || $HOME/.config/scripts/dpi-set.sh 96
 
-# Allow local user to connect to x server without auth cookie
-xhost +si:localuser:$USER
-
 # Start i3
 exec /usr/local/bin/i3
